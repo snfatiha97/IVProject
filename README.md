@@ -7,9 +7,8 @@ The IDE use to run the coding on web application is by using Visual Studio Code
 and in my case I am using the codespace.All the answer coding sheet is in the joget file.
 
 Before starting please install the Java extension pack, node.js extension pack and http-server pack.
-To install http-server pack please run this command to install 'npm -g install http-server' and follow
-the guide from https://bobbyhadz.com/blog/npm-command-not-found-http-server
-Http-server folder is a folder to run the http-server command. To open the web application, please run command
+To install http-server pack please run this command to install 'npm -g install http-server'
+To open the web application, please run command
 'http-server' and open the desired html file. This is applicable for Q2 and Q4.
 
 For Question 1, it was divided into 3 parts which are part a, part b and part c.
