@@ -1,0 +1,138 @@
+<!--Using HTML and CSS, create a simple webpage layout with a header, footer, and main content section.
+    The header should have a background color of blue and contain a centered Joget logo and a navigation menu
+    with links to Home, About, and Contact pages. The main content section should have a white background and contain
+    a heading and a paragraph of text. The footer should have a gray background and contain copyright information
+    and a link to a privacy policy page.-->
+
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <link href="joget-logo.jpeg" rel="icon">
+        <title>Joget Website</title>
+      </head>
+      <body>
+        <!--Header-->
+        <header class="header">
+          <!--Joget logo-->
+          <img src="joget-logo-rgb.png" class="rounded mx-auto d-block" alt="Joget Logo">
+
+          <!--Toggle button responsive-->
+          <nav class="navbar navbar-expand-md bg-primary navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+          <!--Navbar Button-->
+            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="btn btn-primary" href="https://www.joget.com/" role="button">HOME</a>
+                </li>
+
+                <li class="nav-item">
+                  <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      ABOUT US
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="https://www.joget.com/customers.html">CUSTOMER</a>
+                      <a class="dropdown-item" href="https://www.joget.com/customer-stories.html">CUSTOMER STORIES</a>
+                      <a class="dropdown-item" href="https://www.joget.com/reviews.html">REVIEWS</a>
+                      <a class="dropdown-item" href="https://www.joget.com/csr.html">SOCIAL RESPONSIBILITY</a>
+                      <a class="dropdown-item" href="https://www.joget.com/press.html">PRESS</a>
+                      <a class="dropdown-item" href="https://www.joget.com/about-joget.html">ABOUT JOGET</a>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="nav-item">
+                  <a class="btn btn-primary" href="https://www.joget.com/contact.html" role="button">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+        <br>
+
+        <!--Body Content-->
+        <h1>Open Source Low-Code Platform</h1>
+        <br>
+        <p>Joget DX is a modern open source low-code application development platform to build enterprise web apps and automate workflows on the Cloud and Mobile</p>
+        <br>
+        <p>Build, automate or download: </p>
+        <ul>
+          <li>Create and build database driven or process driven apps</li>
+          <li>Automate workflow in your apps</li>
+          <li>Use existing apps as templates to build your own apps or download new apps and plugins from the Joget Marketplace</li>
+        </ul>
+        <br>
+        <p>Built for citizen developers and professional developers, Joget DX empowers anyone to build web applications to suit their every need.</p>
+        <br>
+        <p>Joget DX Resources:</p>
+        <ul>
+          <li><a href="https://dev.joget.org/community/">Knowledge Base</a></li>
+          <li><a href="https://marketplace.joget.org/jw/web/userview/mp/mpp/_/aa">Joget Marketplace</a></li>
+          <li><a href="https://translate.joget.org/">Translate Joget DX</a></li>
+          <li><a href="https://www.youtube.com/jogetworkflow">Video Tutorials</a></li>
+          <li><a href="https://answers.joget.org/">Questions and Answer?</a></li>
+        </ul>
+        <hr>
+        <h1>Joget is Simple, Flexible & Open</h1>
+        <br>
+        <div class="row">
+          <div class="column">
+            <img src="1st.png" alt="1st pic" style="width:70%">
+          </div>
+          <div class="column">
+            <img src="2nd.png" alt="2nd pic" style="width:70%">
+          </div>
+          <div class="column">
+            <img src="3rd.png" alt="3rd pic" style="width:70%">
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="column">
+            <h3>SIMPLE</h3>
+            <ul>
+              <li>Visual, drag and drop.</li>
+              <li>Accessible to non-coders.</li>
+              <li>Just a web browser needed, anytime, anywhere.</li>
+            </ul>
+          </div>
+          <div class="column">
+            <h3>FLEXIBLE</h3>
+            <ul>
+              <li>Process driven apps, database centric apps, integration.</li>
+              <li>Build full-fledged enterprise apps, you name it.</li>
+              <li>​Ready for the cloud and mobile​</li>
+            </ul>
+          </div>
+          <div class="column">
+            <h3>OPEN</h3>
+            <ul>
+              <li>Open source.</li>
+              <li>On-premise, private or public cloud. </li>
+              <li>OS, DB, app server independent.</li>
+            </ul>
+          </div>
+        </div>
+        <br>
+        <!--Footer-->
+        <footer>
+          <!--Copyright informtion and link to privacy policy-->
+          <br>
+          <p>This disclaimer appears on content — commonly YouTube videos — that uses someone else’s copyrighted content. Including this statement of “fair use” helps protect you against copyright infringement claims.</p>
+          <p>Legal information, legal templates and legal policies are not legal advice. <a href="https://www.joget.com/privacy-policy.html">Privacy Policy.</a></p>
+          <p>Coyright &#169 JOGET INC 2023</p>
+          <br>
+        </footer>
+      </body>
+    </html>
